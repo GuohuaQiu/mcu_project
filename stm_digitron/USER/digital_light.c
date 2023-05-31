@@ -1,9 +1,9 @@
 /**************************************************************************
- * @file     main.c
- * @version  V3.00
- * @brief    Show how to set GPIO pin mode and use pin data input/output control.
+ * @file     digital_light.c.c
+ * @version  V0.1
+ * @brief    driver for digitron 7 segment led display.
  *
- * @copyright (C) 2013~2015 Nuvoton Technology Corp. All rights reserved.
+ * @copyright (C) Qiu Guohua. All rights reserved.
  *
  ******************************************************************************/
 #include "stdio.h"
@@ -147,7 +147,7 @@ void ShowMe()
     printf("change:%d", global);
 }
 
-#define FREQ 2
+#define FREQ 8
 int freq = 0;
 void SwitchPos()
 {
